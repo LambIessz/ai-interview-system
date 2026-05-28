@@ -1,0 +1,53 @@
+# === IDE & Editor ===
+.idea
+.vscode
+*.swp
+*.swo
+*~
+.DS_Store
+
+# === Python / Backend ===
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.coverage*
+htmlcov
+dist
+*.egg-info
+.env
+.env.*
+!.env.example
+venv/
+env/
+.venv/
+
+# === Node.js / Frontend ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# === Docker ===
+docker-compose-linux-x86_64
+*.db
+
+# === Logs ===
+logs/*
+*.log
+
+# === Uploads / Runtime ===
+uploads/*
+*.db
+celerybeat-schedule.db
+
+# === Claude ===
+.claude/
+.cache/
+.mcp.json
+mcp/
+
+# === Misc ===
+nginx/ssl/
+resources/prepwise-figma
